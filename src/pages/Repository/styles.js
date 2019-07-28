@@ -16,7 +16,7 @@ export const Owner = styled.header`
   align-items: center;
 
   a {
-    color: green;
+    color: #ef6461;
     font-size: 16px;
     text-decoration: none;
   }
@@ -30,12 +30,13 @@ export const Owner = styled.header`
   h1 {
     font-size: 24px;
     margin-top: 10px;
+    color: #313638;
   }
 
   p {
     margin-top: 5px;
     font-size: 14px;
-    color: #666;
+    color: #e4b363;
     line-height: 1.4;
     text-align: center;
     max-width: 400px;
@@ -74,15 +75,16 @@ export const IssueList = styled.ul`
       font-size: 16px;
       a {
         text-decoration: none;
-        color: darkgreen;
+        color: #313638;
+        transition: 0.2s;
 
         &:hover {
-          color: lightgreen;
+          color: #999;
         }
       }
 
       span {
-        background: #eee;
+        background: #e4b363;
         color: #333;
         border-radius: 2px;
         font-size: 12px;
