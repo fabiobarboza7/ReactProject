@@ -64,12 +64,13 @@ export const SubmitButton = styled.button.attrs(props => ({
   }
 
   ${props =>
-    props.loading &&
-    css`
-      svg {
-        animation: ${rotate} 2s linear infinite;
-      }
-    `}
+    props.loading
+      ? css`
+          svg {
+            animation: ${rotate} 2s linear infinite;
+          }
+        `
+      : undefined}
 `;
 
 export const List = styled.ul`
